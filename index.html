@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Cadastro de Usuários</title>
+  
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Estilos Customizados -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col antialiased">
+
+  <!-- Topbar / Cabeçalho Principal -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-30 shadow-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <!-- Logo e Título -->
+        <div class="flex items-center space-x-3">
+          <div class="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center text-white shadow-md shadow-indigo-200">
+            <i data-lucide="users" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h1 class="text-lg font-bold text-slate-900 leading-tight">Cadastros Web</h1>
+            <p class="text-xs text-slate-500 hidden sm:block">Gestão de Usuários com Armazenamento Local</p>
+          </div>
+        </div>
+
+        <!-- Ações do Cabeçalho -->
+        <div class="flex items-center space-x-2 sm:space-x-3">
+          <!-- Menu suspenso de ações adicionais (Backup/Restauração) -->
+          <div class="relative">
+            <button 
+              id="btn-dados-menu"
+              type="button" 
+              class="inline-flex items-center space-x-1 px-3 py-2 text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors"
+              title="Opções de Backup e Restauração"
+            >
+              <i data-lucide="database" class="w-4 h-4"></i>
+              <span class="hidden md:inline">Dados</span>
+              <i data-lucide="chevron-down" class="w-3.5 h-3.5 ml-0.5 text-slate-400"></i>
+            </button>
+            <div id="dados-menu-dropdown" class="absolute right-0 mt-1 w-52 bg-white rounded-xl shadow-xl border border-slate-100 py-1.5 hidden z-40">
+              <button id="btn-export-csv" class="w-full text-left px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 flex items-center space-x-2">
+                <i data-lucide="file-spreadsheet" class="w-4 h-4 text-emerald-600"></i>
+                <span>Exportar CSV (Excel)</span>
+              </button>
+              <button id="btn-export-json" class="w-full text-left px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 flex items-center space-x-2">
+                <i data-lucide="download" class="w-4 h-4 text-blue-600"></i>
+                <span>Exportar Backup (JSON)</span>
+              </button>
+              <button id="btn-open-import" class="w-full text-left px-4 py-2 text-xs text-slate-700 hover:bg-slate-50 flex items-center space-x-2">
+                <i data-lucide="upload" class="w-4 h-4 text-purple-600"></i>
+                <span>Importar Arquivo JSON</span>
+              </button>
+              <div class="border-t border-slate-100 my-1"></div>
+              <button id="btn-reset-data" class="w-full text-left px-4 py-2 text-xs text-amber-600 hover:bg-amber-50 flex items-center space-x-2">
+                <i data-lucide="rotate-ccw" class="w-4 h-4"></i>
+                <span>Restaurar Amostras</span>
+              </button>
+              <button id="btn-clear-all" class="w-full text-left px-4 py-2 text-xs text-rose-600 hover:bg-rose-50 flex items-center space-x-2">
+                <i data-lucide="trash" class="w-4 h-4"></i>
+                <span>Limpar Todo o Banco</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Botão Novo Usuário -->
+          <button 
+            id="btn-novo-usuario" 
+            type="button" 
+            class="inline-flex items-center space-x-2 bg-indigo-600 hover:bg-indigo-700 text-white font-medium text-xs sm:text-sm px-3 sm:px-4 py-2 rounded-lg shadow-sm shadow-indigo-300 transition-all active:scale-95"
+          >
+            <i data-lucide="plus" class="w-4 h-4"></i>
+            <span>Novo Usuário</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+
+    <!-- Seção de Indicadores / Métricas Rápidas -->
+    <section class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <!-- Total -->
+      <div class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-xs flex items-center space-x-4">
+        <div class="w-12 h-12 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center shrink-0">
+          <i data-lucide="users" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <p class="text-xs font-medium text-slate-500 uppercase tracking-wider">Total de Usuários</p>
+          <h3 id="metric-total" class="text-2xl font-bold text-slate-900 mt-0.5">0</h3>
+        </div>
+      </div>
+
+      <!-- Ativos -->
+      <div class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-xs flex items-center space-x-4">
+        <div class="w-12 h-12 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">
+          <i data-lucide="user-check" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <p class="text-xs font-medium text-slate-500 uppercase tracking-wider">Ativos</p>
+          <h3 id="metric-ativos" class="text-2xl font-bold text-slate-900 mt-0.5">0</h3>
+        </div>
+      </div>
+
+      <!-- Pendentes -->
+      <div class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-xs flex items-center space-x-4">
+        <div class="w-12 h-12 rounded-lg bg-amber-50 text-amber-600 flex items-center justify-center shrink-0">
+          <i data-lucide="user-clock" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <p class="text-xs font-medium text-slate-500 uppercase tracking-wider">Pendentes</p>
+          <h3 id="metric-pendentes" class="text-2xl font-bold text-slate-900 mt-0.5">0</h3>
+        </div>
+      </div>
+
+      <!-- Inativos -->
+      <div class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-xs flex items-center space-x-4">
+        <div class="w-12 h-12 rounded-lg bg-slate-100 text-slate-600 flex items-center justify-center shrink-0">
+          <i data-lucide="user-x" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <p class="text-xs font-medium text-slate-500 uppercase tracking-wider">Inativos</p>
+          <h3 id="metric-inativos" class="text-2xl font-bold text-slate-900 mt-0.5">0</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Barra de Filtros e Pesquisa -->
+    <section class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-xs space-y-3">
+      <div class="flex flex-col lg:flex-row gap-3 items-stretch lg:items-center justify-between">
+        <!-- Campo de Pesquisa -->
+        <div class="relative flex-1">
+          <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+            <i data-lucide="search" class="w-4 h-4"></i>
+          </span>
+          <input 
+            type="text" 
+            id="search-input" 
+            placeholder="Pesquisar por nome, e-mail, CPF, telefone ou cargo..." 
+            class="w-full pl-10 pr-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-sm text-slate-800 placeholder-slate-400 focus:bg-white focus:outline-hidden focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all"
+          >
+        </div>
+
+        <!-- Filtros Rápidos -->
+        <div class="flex flex-wrap items-center gap-2">
+          <!-- Filtro de Status -->
+          <div class="flex-1 sm:flex-none min-w-[130px]">
+            <select 
+              id="filter-status" 
+              class="w-full py-2 px-3 bg-slate-50 border border-slate-200 rounded-lg text-xs font-medium text-slate-700 focus:outline-hidden focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500"
+            >
+              <option value="todos">Status: Todos</option>
+              <option value="ativo">Status: Ativo</option>
+              <option value="pendente">Status: Pendente</option>
+              <option value="inativo">Status: Inativo</option>
+            </select>
+          </div>
+
+          <!-- Filtro de Cargo -->
+          <div class="flex-1 sm:flex-none min-w-[140px]">
+            <select 
+              id="filter-role" 
+              class="w-full py-2 px-3 bg-slate-50 border border-slate-200 rounded-lg text-xs font-medium text-slate-700 focus:outline-hidden focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500"
+            >
+              <option value="todos">Cargo: Todos</option>
+              <option value="Administrador do Sistema">Administrador</option>
+              <option value="Desenvolvedor Sênior">Desenvolvedor Sênior</option>
+              <option value="Gerente de Projetos">Gerente de Projetos</option>
+              <option value="UX/UI Designer">UX/UI Designer</option>
+              <option value="Analista de QA">Analista de QA</option>
+              <option value="Suporte Técnico">Suporte Técnico</option>
+              <option value="Outro">Outro</option>
+            </select>
+          </div>
+
+          <!-- Ordenação -->
+          <div class="flex-1 sm:flex-none min-w-[140px]">
+            <select 
+              id="sort-by" 
+              class="w-full py-2 px-3 bg-slate-50 border border-slate-200 rounded-lg text-xs font-medium text-slate-700 focus:outline-hidden focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500"
+            >
+              <option value="data_desc">Mais recentes</option>
+              <option value="data_asc">Mais antigos</option>
+              <option value="nome_asc">Nome (A - Z)</option>
+              <option value="nome_desc">Nome (Z - A)</option>
+            </select>
+          </div>
+
+          <!-- Botão Resetar Filtros -->
+          <button 
+            type="button" 
+            id="btn-reset-filters" 
+            title="Limpar todos os filtros"
+            class="p-2 text-slate-500 hover:text-slate-800 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors"
+          >
+            <i data-lucide="filter-x" class="w-4 h-4"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Barra de Informações de Busca -->
+      <div class="flex items-center justify-between text-xs text-slate-500 pt-1 border-t border-slate-100">
+        <span id="results-count">Carregando usuários...</span>
+        <span class="flex items-center space-x-1">
+          <i data-lucide="shield-check" class="w-3.5 h-3.5 text-emerald-500"></i>
+          <span>Armazenamento local ativo</span>
+        </span>
+      </div>
+    </section>
+
+    <!-- Tabela de Usuários (Desktop) -->
+    <section class="bg-white rounded-xl border border-slate-200/80 shadow-xs overflow-hidden">
+      <div id="table-wrapper" class="overflow-x-auto hidden sm:block">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="bg-slate-50 border-b border-slate-200 text-xs font-semibold uppercase tracking-wider text-slate-500">
+              <th scope="col" class="px-6 py-3.5">Usuário</th>
+              <th scope="col" class="px-6 py-3.5">Cargo</th>
+              <th scope="col" class="px-6 py-3.5">Contato</th>
+              <th scope="col" class="px-6 py-3.5">Status</th>
+              <th scope="col" class="px-6 py-3.5">Cadastro</th>
+              <th scope="col" class="px-6 py-3.5 text-right">Ações</th>
+            </tr>
+          </thead>
+          <tbody id="users-table-body" class="divide-y divide-slate-100 text-sm">
+            <!-- As linhas da tabela são injetadas via JavaScript -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Visualização em Cards (Mobile) -->
+      <div id="users-cards-container" class="sm:hidden p-4 space-y-3">
+        <!-- Cards mobile injetados via JavaScript -->
+      </div>
+
+      <!-- Estado Vazio (Sem resultados) -->
+      <div id="empty-state" class="hidden py-16 px-4 text-center">
+        <div class="w-16 h-16 bg-slate-100 text-slate-400 rounded-full flex items-center justify-center mx-auto mb-4">
+          <i data-lucide="user-minus" class="w-8 h-8"></i>
+        </div>
+        <h3 class="text-base font-semibold text-slate-800">Nenhum usuário encontrado</h3>
+        <p class="text-xs text-slate-500 max-w-sm mx-auto mt-1">
+          Não localizamos registros que correspondam aos filtros ou termo pesquisado. Tente ajustar os filtros ou cadastre um novo usuário.
+        </p>
+        <button 
+          type="button" 
+          onclick="openUserModal()" 
+          class="mt-4 inline-flex items-center space-x-2 text-xs font-semibold bg-indigo-50 text-indigo-600 hover:bg-indigo-100 px-4 py-2 rounded-lg transition-colors"
+        >
+          <i data-lucide="plus" class="w-4 h-4"></i>
+          <span>Cadastrar Primeiro Usuário</span>
+        </button>
+      </div>
+
+      <!-- Paginação -->
+      <div id="pagination-container" class="border-t border-slate-100 px-4 bg-slate-50/50">
+        <!-- Injetado dinamicamente via JS -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-white border-t border-slate-200 mt-auto py-4 text-center text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
+      <p>Sistema de Cadastro de Usuários &bull; 100% Client-side (HTML5, Tailwind CSS e Vanilla JavaScript)</p>
+      <p class="text-slate-400">Persistência via LocalStorage do navegador</p>
+    </div>
+  </footer>
+
+  <!-- ============================================================= -->
+  <!-- MODAL: CADASTRAR / EDITAR USUÁRIO                             -->
+  <!-- ============================================================= -->
+  <div id="modal-usuario" class="modal-overlay hidden fixed inset-0 z-50 items-center justify-center p-4 bg-slate-900/50 modal-backdrop overflow-y-auto">
+    <div class="bg-white rounded-2xl shadow-2xl border border-slate-100 w-full max-w-lg my-8 overflow-hidden transform transition-all">
+      <!-- Cabeçalho do Modal -->
+      <div class="px-6 py-4 bg-slate-50/80 border-b border-slate-100 flex items-center justify-between">
+        <div>
+          <h3 id="modal-usuario-title" class="text-base font-bold text-slate-900">Novo Usuário</h3>
+          <p id="modal-usuario-subtitle" class="text-xs text-slate-500 mt-0.5">Preencha as informações do formulário.</p>
+        </div>
+        <button type="button" data-close-modal="modal-usuario" class="text-slate-400 hover:text-slate-600 p-1 rounded-lg hover:bg-slate-100">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <!-- Formulário -->
+      <form id="form-usuario" novalidate class="p-6 space-y-4">
+        <input type="hidden" id="user-id">
+
+        <!-- Campo: Nome Completo -->
+        <div>
+          <label for="user-nome" class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">
+            Nome Completo <span class="text-rose-500">*</span>
+          </label>
+          <div class="relative">
+            <span class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+              <i data-lucide="user" class="w-4 h-4"></i>
+            </span>
+            <input 
+              type="text" 
+              id="user-nome" 
+              required
+              placeholder="Ex: João Silva Sauro" 
+              class="w-full pl-9 pr-3 py-2 text-sm bg-white border border-slate-200 rounded-lg focus:outline-hidden focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500"
+            >
+          </div>
+          <span id="user-nome-error" class="error-message hidden text-xs text-rose-500 mt-1 block"></span>
+        </div>
+
+        <!-- Linha: E-mail e Telefone -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <!-- Campo: E-mail -->
+          <div>
+            <label for="user-email" class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">
+              E-mail <span class="text-rose-500">*</span>
+            </label>
+            <div class="relative">
+              <span class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                <i data-lucide="mail" class="w-4 h-4"></i>
+              </span>
+              <input 
+                type="email" 
+                id="user-email" 
+                required
+                placeholder="joao@exemplo.com" 
+                class="w-full pl-9 pr-3 py-2 text-sm bg-white border border-slate-200 rounded-lg focus:outline-hidden focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500"
+              >
+            </div>
+            <span id="user-email-error" class="error-message hidden text-xs text-rose-500 mt-1 block"></span>
+          </div>
+
+          <!-- Campo: Telefone -->
+          <div>
+            <label for="user-telefone" class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">
+              Telefone / Celular
+            </label>
+            <div class="relative">
+              <span class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                <i data-lucide="phone" class="w-4 h-4"></i>
+              </span>
+              <input 
+                type="text" 
+                id="user-telefone" 
+                placeholder="(11) 98765-4321" 
+                maxlength="15"
+                class="w-full pl-9 pr-3 py-2 text-sm bg-white border border-slate-200 rounded-lg focus:outline-hidden focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500"
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Linha: CPF e Data de Nascimento -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <!-- Campo: CPF -->
+          <div>
+            <label for="user-cpf" class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">
+              CPF
+            </label>
+            <div class="relative">
+              <span class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                <i data-lucide="id-card" class="w-4 h-4"></i>
+              </span>
+              <input 
+                type="text" 
+                id="user-cpf" 
+                placeholder="000.000.000-00" 
+                maxlength="14"
+                class="w-full pl-9 pr-3 py-2 text-sm bg-white border border-slate-200 rounded-lg focus:outline-hidden focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500"
+              >
+            </div>
+            <span id="user-cpf-error" class="error-message hidden text-xs text-rose-500 mt-1 block"></span>
+          </div>
+
+          <!-- Campo: Data de Nascimento -->
+          <div>
+            <label for="user-nascimento" class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">
+              Data de Nascimento
+            </label>
+            <div class="relative">
+              <span class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                <i data-lucide="calendar" class="w-4 h-4"></i>
+              </span>
+              <input 
+                type="date" 
+                id="user-nascimento" 
+                class="w-full pl-9 pr-3 py-2 text-sm bg-white border border-slate-200 rounded-lg focus:outline-hidden focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500"
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Linha: Cargo e Status -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <!-- Campo: Cargo -->
+          <div>
+            <label for="user-cargo" class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">
+              Cargo / Função <span class="text-rose-500">*</span>
+            </label>
+            <select 
+              id="user-cargo" 
+              required
+              class="w-full px-3 py-2 text-sm bg-white border border-slate-200 rounded-lg focus:outline-hidden focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500"
+            >
+              <option value="Administrador do Sistema">Administrador do Sistema</option>
+              <option value="Desenvolvedor Sênior">Desenvolvedor Sênior</option>
+              <option value="Gerente de Projetos">Gerente de Projetos</option>
+              <option value="UX/UI Designer">UX/UI Designer</option>
+              <option value="Analista de QA">Analista de QA</option>
+              <option value="Suporte Técnico">Suporte Técnico</option>
+              <option value="Outro">Outro</option>
+            </select>
+          </div>
+
+          <!-- Campo: Status -->
+          <div>
+            <label for="user-status" class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">
+              Status <span class="text-rose-500">*</span>
+            </label>
+            <select 
+              id="user-status" 
+              required
+              class="w-full px-3 py-2 text-sm bg-white border border-slate-200 rounded-lg focus:outline-hidden focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500"
+            >
+              <option value="ativo">Ativo</option>
+              <option value="pendente">Pendente</option>
+              <option value="inativo">Inativo</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Campo: Observações -->
+        <div>
+          <label for="user-observacoes" class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">
+            Observações / Descrição
+          </label>
+          <textarea 
+            id="user-observacoes" 
+            rows="3" 
+            placeholder="Informações adicionais, habilidades ou anotações internas..." 
+            class="w-full px-3 py-2 text-sm bg-white border border-slate-200 rounded-lg focus:outline-hidden focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500"
+          ></textarea>
+        </div>
+
+        <!-- Botões de Ação do Formulário -->
+        <div class="flex items-center justify-end space-x-3 pt-4 border-t border-slate-100">
+          <button 
+            type="button" 
+            data-close-modal="modal-usuario" 
+            class="px-4 py-2 text-xs font-medium text-slate-700 hover:bg-slate-100 rounded-lg transition-colors"
+          >
+            Cancelar
+          </button>
+          <button 
+            type="submit" 
+            id="btn-submit-usuario" 
+            class="inline-flex items-center px-4 py-2 text-xs font-semibold text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg shadow-sm shadow-indigo-300 transition-all active:scale-95"
+          >
+            <i data-lucide="check" class="w-4 h-4 mr-1.5"></i>
+            <span>Salvar Usuário</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ============================================================= -->
+  <!-- MODAL: VISUALIZAR DETALHES DO USUÁRIO                         -->
+  <!-- ============================================================= -->
+  <div id="modal-view-user" class="modal-overlay hidden fixed inset-0 z-50 items-center justify-center p-4 bg-slate-900/50 modal-backdrop overflow-y-auto">
+    <div class="bg-white rounded-2xl shadow-2xl border border-slate-100 w-full max-w-md my-8 overflow-hidden transform transition-all">
+      <div class="px-6 py-4 bg-slate-50/80 border-b border-slate-100 flex items-center justify-between">
+        <h3 class="text-sm font-bold text-slate-800 flex items-center space-x-2">
+          <i data-lucide="user" class="w-4 h-4 text-indigo-600"></i>
+          <span>Ficha do Usuário</span>
+        </h3>
+        <button type="button" data-close-modal="modal-view-user" class="text-slate-400 hover:text-slate-600 p-1 rounded-lg hover:bg-slate-100">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+      <div id="view-user-details-content" class="p-6">
+        <!-- Detalhes injetados via JavaScript -->
+      </div>
+      <div class="px-6 py-3 bg-slate-50 border-t border-slate-100 flex justify-between items-center">
+        <button 
+          type="button" 
+          id="btn-edit-from-view" 
+          class="inline-flex items-center text-xs font-semibold text-indigo-600 hover:text-indigo-800"
+        >
+          <i data-lucide="pencil" class="w-3.5 h-3.5 mr-1"></i>
+          Editar Cadastro
+        </button>
+        <button 
+          type="button" 
+          data-close-modal="modal-view-user" 
+          class="px-4 py-1.5 text-xs font-semibold text-slate-600 bg-white border border-slate-200 rounded-lg hover:bg-slate-50"
+        >
+          Fechar
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================= -->
+  <!-- MODAL: CONFIRMAR EXCLUSÃO                                     -->
+  <!-- ============================================================= -->
+  <div id="modal-confirm-delete" class="modal-overlay hidden fixed inset-0 z-50 items-center justify-center p-4 bg-slate-900/50 modal-backdrop">
+    <div class="bg-white rounded-2xl shadow-2xl border border-slate-100 w-full max-w-sm p-6 text-center transform transition-all">
+      <div class="w-12 h-12 bg-rose-100 text-rose-600 rounded-full flex items-center justify-center mx-auto mb-4">
+        <i data-lucide="alert-triangle" class="w-6 h-6"></i>
+      </div>
+      <h3 class="text-base font-bold text-slate-900">Confirmar Exclusão</h3>
+      <p class="text-xs text-slate-500 mt-2">
+        Tem certeza que deseja remover o usuário <strong id="delete-user-name" class="text-slate-800"></strong>?
+      </p>
+      <p class="text-[11px] text-rose-500 mt-1">Essa operação não poderá ser desfeita.</p>
+
+      <div class="flex items-center justify-center space-x-3 mt-6">
+        <button 
+          type="button" 
+          data-close-modal="modal-confirm-delete" 
+          class="px-4 py-2 text-xs font-semibold text-slate-600 hover:bg-slate-100 rounded-lg transition-colors"
+        >
+          Cancelar
+        </button>
+        <button 
+          type="button" 
+          id="btn-confirm-delete" 
+          class="inline-flex items-center px-4 py-2 text-xs font-semibold text-white bg-rose-600 hover:bg-rose-700 rounded-lg shadow-sm shadow-rose-300 transition-all active:scale-95"
+        >
+          <i data-lucide="trash-2" class="w-4 h-4 mr-1"></i>
+          Excluir Registro
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================= -->
+  <!-- MODAL: IMPORTAR DADOS (JSON)                                  -->
+  <!-- ============================================================= -->
+  <div id="modal-import" class="modal-overlay hidden fixed inset-0 z-50 items-center justify-center p-4 bg-slate-900/50 modal-backdrop">
+    <div class="bg-white rounded-2xl shadow-2xl border border-slate-100 w-full max-w-md p-6">
+      <div class="flex items-center justify-between pb-3 border-b border-slate-100">
+        <h3 class="text-sm font-bold text-slate-900 flex items-center space-x-2">
+          <i data-lucide="upload" class="w-4 h-4 text-purple-600"></i>
+          <span>Importar Usuários de Backup</span>
+        </h3>
+        <button type="button" data-close-modal="modal-import" class="text-slate-400 hover:text-slate-600 p-1 rounded-lg hover:bg-slate-100">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+      <form id="form-import-json" class="mt-4 space-y-4">
+        <p class="text-xs text-slate-500 leading-relaxed">
+          Selecione um arquivo <code>.json</code> exportado anteriormente por este sistema para carregar os registros na memória local.
+        </p>
+        <input 
+          type="file" 
+          id="import-json-file" 
+          accept=".json,application/json" 
+          required
+          class="block w-full text-xs text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-xs file:font-semibold file:bg-indigo-50 file:text-indigo-700 hover:file:bg-indigo-100 cursor-pointer"
+        >
+        <div class="flex items-center justify-end space-x-2 pt-2">
+          <button 
+            type="button" 
+            data-close-modal="modal-import" 
+            class="px-4 py-2 text-xs font-semibold text-slate-600 hover:bg-slate-100 rounded-lg"
+          >
+            Cancelar
+          </button>
+          <button 
+            type="submit" 
+            class="px-4 py-2 text-xs font-semibold text-white bg-purple-600 hover:bg-purple-700 rounded-lg shadow-sm shadow-purple-300"
+          >
+            Importar Dados
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Container de Notificações Toast -->
+  <div id="toast-container" class="fixed bottom-5 right-5 z-50 flex flex-col space-y-2 pointer-events-none"></div>
+
+  <!-- Scripts da Aplicação -->
+  <script src="js/storage.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

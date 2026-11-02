@@ -1,0 +1,3301 @@
+{
+  "version": 2,
+  "orgId": "00Dfj00000K7pALEAZ",
+  "writtenAt": "2026-11-02T19:51:59.594Z",
+  "generation": 39,
+  "inventory": [
+    {
+      "xmlName": "ApexClass",
+      "observedAt": "2026-11-02T19:50:11.159Z",
+      "complete": true,
+      "components": [
+        {
+          "fullName": "AccountMedalController",
+          "manageableState": "unmanaged",
+          "fileName": "classes/AccountMedalController.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-07T02:26:09.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__constants",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__constants.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__dmlManager",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__dmlManager.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__FieldPermissionsBatchCloner",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__FieldPermissionsBatchCloner.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__ObjectPermissionsBatchCloner",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__ObjectPermissionsBatchCloner.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__permAnalyzer",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__permAnalyzer.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__permAnalyzerTestData",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__permAnalyzerTestData.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__permissionManager",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__permissionManager.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__PermissionsBatchCloner",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__PermissionsBatchCloner.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__PermissionsBatchCloner_Test",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__PermissionsBatchCloner_Test.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__permissionSetGroupsList",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__permissionSetGroupsList.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__PermissionsHelper",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__PermissionsHelper.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__PermissionsHelper_Test",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__PermissionsHelper_Test.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__profileConverter",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__profileConverter.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__psgAgregatedPermissions",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__psgAgregatedPermissions.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__report",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__report.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__reportByPermissionDependency",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__reportByPermissionDependency.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__reportByPermissionSet",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__reportByPermissionSet.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__reportByUser",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__reportByUser.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__responseData",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__responseData.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__SetupEntityAccessBatchCloner",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__SetupEntityAccessBatchCloner.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__strike_lookupController",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__strike_lookupController.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__strike_tst_lookupController",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__strike_tst_lookupController.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__strike_utilities",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__strike_utilities.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__TabSettingBatchCloner",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__TabSettingBatchCloner.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__tst_permAnalyzer",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__tst_permAnalyzer.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__tst_permissionManager",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__tst_permissionManager.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__tst_permissionSetGroups",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__tst_permissionSetGroups.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__tst_profileCoverter",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__tst_profileCoverter.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__tst_report",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__tst_report.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__tst_reportByPermissionDependency",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__tst_reportByPermissionDependency.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__tst_reportByPermissionSet",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__tst_reportByPermissionSet.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__tst_reportByUser",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__tst_reportByUser.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__tst_userMode",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__tst_userMode.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__userMode",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__userMode.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__utilities",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__utilities.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__ApexClass_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__ApexClass_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__ApexClassModel",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__ApexClassModel.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__ApexClassRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__ApexClassRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__ApexClassService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__ApexClassService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__APIRequest",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__APIRequest.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__APIRequest_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__APIRequest_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__APIRequestException",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__APIRequestException.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__AppLogTrigger_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__AppLogTrigger_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Dashboard_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Dashboard_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__DashboardRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__DashboardRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__DashboardService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__DashboardService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Log_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Log_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Logger",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Logger.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Logger_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Logger_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__LoginHistoryModel",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__LoginHistoryModel.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__LogModel",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__LogModel.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__LogRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__LogRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__LogService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__LogService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Org_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Org_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__OrgModel",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__OrgModel.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__OrgRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__OrgRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__OrgService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__OrgService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Package_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Package_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__PackageRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__PackageRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__PackageService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__PackageService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Ping_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Ping_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__PingRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__PingRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Query_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Query_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__QueryRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__QueryRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__QueryResultsModel",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__QueryResultsModel.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__QueryResultsModel_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__QueryResultsModel_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__QueryService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__QueryService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Report_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Report_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__ReportRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__ReportRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__ReportService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__ReportService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__RequestHelpers",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__RequestHelpers.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__RequestHelpers_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__RequestHelpers_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__SecurityService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__SecurityService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__SecurityService_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__SecurityService_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Sobject_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Sobject_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__SobjectRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__SobjectRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__SobjectService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__SobjectService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__TestUtils",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__TestUtils.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__TestUtils_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__TestUtils_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Tooling_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Tooling_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__ToolingRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__ToolingRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__ToolingService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__ToolingService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__User_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__User_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__UserModel",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__UserModel.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__UserRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__UserRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__UserService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__UserService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        }
+      ],
+      "folders": []
+    }
+  ],
+  "sobjects": {
+    "descriptions": []
+  },
+  "tracking": [],
+  "metadataTypes": [
+    {
+      "xmlName": "ActionLauncherItemDef",
+      "directoryName": "ActionLauncherItemDef",
+      "suffix": "actionLauncherItemDef",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ActionLinkGroupTemplate",
+      "directoryName": "actionLinkGroupTemplates",
+      "suffix": "actionLinkGroupTemplate",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "AIApplication",
+      "directoryName": "aiApplications",
+      "suffix": "ai",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "AIApplicationConfig",
+      "directoryName": "aiApplicationConfigs",
+      "suffix": "aiapplicationconfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "AnalyticSnapshot",
+      "directoryName": "analyticSnapshots",
+      "suffix": "snapshot",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "AnimationRule",
+      "directoryName": "animationRules",
+      "suffix": "animationRule",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ApexClass",
+      "directoryName": "classes",
+      "suffix": "cls",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ApexComponent",
+      "directoryName": "components",
+      "suffix": "component",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ApexEmailNotifications",
+      "directoryName": "apexEmailNotifications",
+      "suffix": "notifications",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ApexPage",
+      "directoryName": "pages",
+      "suffix": "page",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ApexTestSuite",
+      "directoryName": "testSuites",
+      "suffix": "testSuite",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ApexTrigger",
+      "directoryName": "triggers",
+      "suffix": "trigger",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ApiNamedQuery",
+      "directoryName": "apiNamedQueries",
+      "suffix": "apiNamedQuery",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "AppFrameworkApp",
+      "directoryName": "appFrameworkApps",
+      "suffix": "appFrameworkApp",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "AppFrameworkTemplateBundle",
+      "directoryName": "appTemplates",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "AppMenu",
+      "directoryName": "appMenus",
+      "suffix": "appMenu",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "AppointmentAssignmentPolicy",
+      "directoryName": "appointmentAssignmentPolicies",
+      "suffix": "policy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "AppointmentSchedulingPolicy",
+      "directoryName": "appointmentSchedulingPolicies",
+      "suffix": "policy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ApprovalProcess",
+      "directoryName": "approvalProcesses",
+      "suffix": "approvalProcess",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "AssignmentRules",
+      "directoryName": "assignmentRules",
+      "suffix": "assignmentRules",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "AssignmentRule"
+      ],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "AuraDefinitionBundle",
+      "directoryName": "aura",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "AuthProvider",
+      "directoryName": "authproviders",
+      "suffix": "authprovider",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "AutoResponseRules",
+      "directoryName": "autoResponseRules",
+      "suffix": "autoResponseRules",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "AutoResponseRule"
+      ],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "BlacklistedConsumer",
+      "directoryName": "blacklistedConsumers",
+      "suffix": "blacklistedConsumer",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "BrandingSet",
+      "directoryName": "brandingSets",
+      "suffix": "brandingSet",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "BriefcaseDefinition",
+      "directoryName": "briefcaseDefinitions",
+      "suffix": "briefcaseDefinition",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CallCenter",
+      "directoryName": "callCenters",
+      "suffix": "callCenter",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CallCenterRoutingMap",
+      "directoryName": "callCenterRoutingMaps",
+      "suffix": "callCenterRoutingMap",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CallCoachingMediaProvider",
+      "directoryName": "callCoachingMediaProviders",
+      "suffix": "callCoachingMediaProvider",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CanvasMetadata",
+      "directoryName": "Canvases",
+      "suffix": "Canvas",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CatalogedApi",
+      "directoryName": "catalogedApis",
+      "suffix": "catalogedApi",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CatalogedApiArtifactVersionInfo",
+      "directoryName": "catalogedApiArtifactVersionInfos",
+      "suffix": "catalogedApiArtifactVersionInfo",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CatalogedApiVersion",
+      "directoryName": "catalogedApiVersions",
+      "suffix": "catalogedApiVersion",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "Certificate",
+      "directoryName": "certs",
+      "suffix": "crt",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ChannelLayout",
+      "directoryName": "channelLayouts",
+      "suffix": "channelLayout",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ChatterExtension",
+      "directoryName": "ChatterExtensions",
+      "suffix": "ChatterExtension",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ChoiceList",
+      "directoryName": "ChoiceList",
+      "suffix": "ChoiceList",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CleanDataService",
+      "directoryName": "cleanDataServices",
+      "suffix": "cleanDataService",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "Community",
+      "directoryName": "communities",
+      "suffix": "community",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ConnectedApp",
+      "directoryName": "connectedApps",
+      "suffix": "connectedApp",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ContentAsset",
+      "directoryName": "contentassets",
+      "suffix": "asset",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ContentTypeBundle",
+      "directoryName": "contentTypes",
+      "suffix": "contentType",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ContentWorkspacePermission",
+      "directoryName": "contentWorkspacePermissions",
+      "suffix": "contentWorkspacePermission",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ConversationChannelDefinition",
+      "directoryName": "conversationChannelDefinitions",
+      "suffix": "ConversationChannelDefinition",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ConversationMessageDefinition",
+      "directoryName": "conversationMessageDefinitions",
+      "suffix": "conversationMessageDefinition",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ConversationVendorInfo",
+      "directoryName": "ConversationVendorInformation",
+      "suffix": "ConversationVendorInformation",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ConvIntelligenceSignalRule",
+      "directoryName": "ConvIntelligenceSignalRule",
+      "suffix": "ConvIntelligenceSignalRule",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CorsWhitelistOrigin",
+      "directoryName": "corsWhitelistOrigins",
+      "suffix": "corsWhitelistOrigin",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CspTrustedSite",
+      "directoryName": "cspTrustedSites",
+      "suffix": "cspTrustedSite",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CustomApplication",
+      "directoryName": "applications",
+      "suffix": "app",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CustomApplicationComponent",
+      "directoryName": "customApplicationComponents",
+      "suffix": "customApplicationComponent",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CustomFeedFilter",
+      "directoryName": "feedFilters",
+      "suffix": "feedFilter",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CustomHelpMenuSection",
+      "directoryName": "customHelpMenuSections",
+      "suffix": "customHelpMenuSection",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CustomIndex",
+      "directoryName": "customindex",
+      "suffix": "indx",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CustomLabels",
+      "directoryName": "labels",
+      "suffix": "labels",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "CustomLabel"
+      ],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CustomMetadata",
+      "directoryName": "customMetadata",
+      "suffix": "md",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CustomNotificationType",
+      "directoryName": "notificationtypes",
+      "suffix": "notiftype",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CustomObject",
+      "directoryName": "objects",
+      "suffix": "object",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "BusinessProcess",
+        "CompactLayout",
+        "CustomField",
+        "FieldSet",
+        "Index",
+        "ListView",
+        "RecordType",
+        "SharingReason",
+        "ValidationRule",
+        "WebLink"
+      ],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CustomObjectTranslation",
+      "directoryName": "objectTranslations",
+      "suffix": "objectTranslation",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CustomPageWebLink",
+      "directoryName": "weblinks",
+      "suffix": "weblink",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CustomPermission",
+      "directoryName": "customPermissions",
+      "suffix": "customPermission",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CustomSite",
+      "directoryName": "sites",
+      "suffix": "site",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "CustomTab",
+      "directoryName": "tabs",
+      "suffix": "tab",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "Dashboard",
+      "directoryName": "dashboards",
+      "suffix": "dashboard",
+      "inFolder": true,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "DataCategoryGroup",
+      "directoryName": "datacategorygroups",
+      "suffix": "datacategorygroup",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "DataWeaveResource",
+      "directoryName": "dw",
+      "suffix": "dwl",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "DebugLevel",
+      "directoryName": "debugLevels",
+      "suffix": "debugLevel",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "DelegateGroup",
+      "directoryName": "delegateGroups",
+      "suffix": "delegateGroup",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "DgtAssetMgmtProvider",
+      "directoryName": "dgtAssetMgmtProviders",
+      "suffix": "dgtAssetMgmtProvider",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "DgtAssetMgmtPrvdLghtCpnt",
+      "directoryName": "dgtAssetMgmtPrvdLghtCpnts",
+      "suffix": "dgtAssetMgmtPrvdLghtCpnt",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "DigitalExperienceBundle",
+      "directoryName": "digitalExperiences",
+      "suffix": "digitalExperience",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [
+        "DigitalExperience"
+      ],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "Document",
+      "directoryName": "documents",
+      "inFolder": true,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "DuplicateRule",
+      "directoryName": "duplicateRules",
+      "suffix": "duplicateRule",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "EclairGeoData",
+      "directoryName": "eclair",
+      "suffix": "geodata",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "EmailServicesFunction",
+      "directoryName": "emailservices",
+      "suffix": "xml",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "EmailTemplate",
+      "directoryName": "email",
+      "suffix": "email",
+      "inFolder": true,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "EmbeddedServiceBranding",
+      "directoryName": "EmbeddedServiceBranding",
+      "suffix": "EmbeddedServiceBranding",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "EmbeddedServiceConfig",
+      "directoryName": "EmbeddedServiceConfig",
+      "suffix": "EmbeddedServiceConfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "EmbeddedServiceFlowConfig",
+      "directoryName": "EmbeddedServiceFlowConfig",
+      "suffix": "EmbeddedServiceFlowConfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "EmbeddedServiceMenuSettings",
+      "directoryName": "EmbeddedServiceMenuSettings",
+      "suffix": "EmbeddedServiceMenuSettings",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "EngmtChannelTypeConfig",
+      "directoryName": "engmtChannelTypeConfigs",
+      "suffix": "engmtChannelTypeConfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "EntitlementProcess",
+      "directoryName": "entitlementProcesses",
+      "suffix": "entitlementProcess",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "EntitlementTemplate",
+      "directoryName": "entitlementTemplates",
+      "suffix": "entitlementTemplate",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "EscalationRules",
+      "directoryName": "escalationRules",
+      "suffix": "escalationRules",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "EscalationRule"
+      ],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "EventRelayConfig",
+      "directoryName": "eventRelays",
+      "suffix": "eventRelay",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ExperienceContainer",
+      "directoryName": "experienceContainers",
+      "suffix": "experienceContainer",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ExperiencePropertyTypeBundle",
+      "directoryName": "experiencePropertyTypeBundles",
+      "suffix": "experiencePropertyTypeBundle",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ExternalAuthIdentityProvider",
+      "directoryName": "externalAuthIdentityProviders",
+      "suffix": "externalAuthIdentityProvider",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ExternalClientApplication",
+      "directoryName": "externalClientApps",
+      "suffix": "eca",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ExternalCredential",
+      "directoryName": "externalCredentials",
+      "suffix": "externalCredential",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ExternalDataSource",
+      "directoryName": "dataSources",
+      "suffix": "dataSource",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "ExternalDataSrcDescriptor"
+      ],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ExternalServiceRegistration",
+      "directoryName": "externalServiceRegistrations",
+      "suffix": "externalServiceRegistration",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ExtlClntAppCanvasSettings",
+      "directoryName": "extlClntAppCanvasSettings",
+      "suffix": "ecaCanvas",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ExtlClntAppConfigurablePolicies",
+      "directoryName": "extlClntAppPolicies",
+      "suffix": "ecaPlcy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ExtlClntAppGlobalOauthSettings",
+      "directoryName": "extlClntAppGlobalOauthSets",
+      "suffix": "ecaGlblOauth",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ExtlClntAppMobileConfigurablePolicies",
+      "directoryName": "extlClntAppMobilePolicies",
+      "suffix": "ecaMobilePlcy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ExtlClntAppMobileSettings",
+      "directoryName": "extlClntAppMobileSettings",
+      "suffix": "ecaMobile",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ExtlClntAppNotificationSettings",
+      "directoryName": "extlClntAppNotifSettings",
+      "suffix": "ecaNotifications",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ExtlClntAppOauthConfigurablePolicies",
+      "directoryName": "extlClntAppOauthPolicies",
+      "suffix": "ecaOauthPlcy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ExtlClntAppOauthSecuritySettings",
+      "directoryName": "extlClntAppOauthSecuritySettings",
+      "suffix": "ecaOauthSecurity",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ExtlClntAppOauthSettings",
+      "directoryName": "extlClntAppOauthSettings",
+      "suffix": "ecaOauth",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ExtlClntAppPushConfigurablePolicies",
+      "directoryName": "extlClntAppPushPolicies",
+      "suffix": "ecaPushPlcy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ExtlClntAppPushSettings",
+      "directoryName": "extlClntAppPushSettings",
+      "suffix": "ecaPush",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ExtlClntAppSamlConfigurablePolicies",
+      "directoryName": "extlClntAppSamlConfigurablePolicies",
+      "suffix": "ecaSamlPlcy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "FieldRestrictionRule",
+      "directoryName": "fieldRestrictionRules",
+      "suffix": "rule",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "FlexiPage",
+      "directoryName": "flexipages",
+      "suffix": "flexipage",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "Flow",
+      "directoryName": "flows",
+      "suffix": "flow",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "FlowCategory",
+      "directoryName": "flowCategories",
+      "suffix": "flowCategory",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "FlowDefinition",
+      "directoryName": "flowDefinitions",
+      "suffix": "flowDefinition",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "FlowTest",
+      "directoryName": "flowtests",
+      "suffix": "flowtest",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "FlowValueMap",
+      "directoryName": "flowValueMaps",
+      "suffix": "flowvaluemap",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "GatewayProviderPaymentMethodType",
+      "directoryName": "gatewayProviderPaymentMethodTypes",
+      "suffix": "gatewayProviderPaymentMethodType",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "GlobalValueSet",
+      "directoryName": "globalValueSets",
+      "suffix": "globalValueSet",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "GlobalValueSetTranslation",
+      "directoryName": "globalValueSetTranslations",
+      "suffix": "globalValueSetTranslation",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "Group",
+      "directoryName": "groups",
+      "suffix": "group",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "HomePageComponent",
+      "directoryName": "homePageComponents",
+      "suffix": "homePageComponent",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "HomePageLayout",
+      "directoryName": "homePageLayouts",
+      "suffix": "homePageLayout",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "IframeWhiteListUrlSettings",
+      "directoryName": "iframeWhiteListUrlSettings",
+      "suffix": "iframeWhiteListUrlSettings",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "InboundNetworkConnection",
+      "directoryName": "inboundNetworkConnections",
+      "suffix": "inboundNetworkConnection",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "InvocableActionExtension",
+      "directoryName": "invocableactionextensions",
+      "suffix": "invocableactionextension",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "IPAddressRange",
+      "directoryName": "IPAddressRanges",
+      "suffix": "IPAddressRange",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "Layout",
+      "directoryName": "layouts",
+      "suffix": "layout",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "LeadConvertSettings",
+      "directoryName": "LeadConvertSettings",
+      "suffix": "LeadConvertSetting",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "Letterhead",
+      "directoryName": "letterhead",
+      "suffix": "letter",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "LightningBolt",
+      "directoryName": "lightningBolts",
+      "suffix": "lightningBolt",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "LightningComponentBundle",
+      "directoryName": "lwc",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "LightningExperienceTheme",
+      "directoryName": "lightningExperienceThemes",
+      "suffix": "lightningExperienceTheme",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "LightningMessageChannel",
+      "directoryName": "messageChannels",
+      "suffix": "messageChannel",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "LightningOnboardingConfig",
+      "directoryName": "lightningOnboardingConfigs",
+      "suffix": "lightningOnboardingConfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "LightningOutApp",
+      "directoryName": "lightningOutApps",
+      "suffix": "lightningOutApp",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "LightningTypeBundle",
+      "directoryName": "lightningTypes",
+      "suffix": "lightningType",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "LiveChatSensitiveDataRule",
+      "directoryName": "liveChatSensitiveDataRule",
+      "suffix": "liveChatSensitiveDataRule",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "MailAppOwaWhitelist",
+      "directoryName": "mailAppOwaWhitelists",
+      "suffix": "mailAppOwaWhitelist",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ManagedContentType",
+      "directoryName": "managedContentTypes",
+      "suffix": "managedContentType",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ManagedEventSubscription",
+      "directoryName": "managedEventSubscriptions",
+      "suffix": "managedEventSubscription",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "MatchingRules",
+      "directoryName": "matchingRules",
+      "suffix": "matchingRule",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "MatchingRule"
+      ],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "McpServerDefinition",
+      "directoryName": "mcpServerDefinitions",
+      "suffix": "mcpServerDefinition",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "MessagingChannel",
+      "directoryName": "messagingChannels",
+      "suffix": "messagingChannel",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "MilestoneType",
+      "directoryName": "milestoneTypes",
+      "suffix": "milestoneType",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "MLDataDefinition",
+      "directoryName": "mlDataDefinitions",
+      "suffix": "mlDataDefinition",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "MLPredictionDefinition",
+      "directoryName": "mlPredictions",
+      "suffix": "mlPrediction",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "MLRecommendationDefinition",
+      "directoryName": "mlRecommendations",
+      "suffix": "mlRecommendation",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "MobileApplicationDetail",
+      "directoryName": "MobileApplicationDetails",
+      "suffix": "MobileApplicationDetail",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "MutingPermissionSet",
+      "directoryName": "mutingpermissionsets",
+      "suffix": "mutingpermissionset",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "MyDomainDiscoverableLogin",
+      "directoryName": "myDomainDiscoverableLogins",
+      "suffix": "myDomainDiscoverableLogin",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "NamedCredential",
+      "directoryName": "namedCredentials",
+      "suffix": "namedCredential",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "NetworkBranding",
+      "directoryName": "networkBranding",
+      "suffix": "networkBranding",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "NotificationTypeConfig",
+      "directoryName": "notificationTypeConfig",
+      "suffix": "config",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "OauthCustomScope",
+      "directoryName": "oauthcustomscopes",
+      "suffix": "oauthcustomscope",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "OauthTokenExchangeHandler",
+      "directoryName": "oauthtokenexchangehandlers",
+      "suffix": "oauthtokenexchangehandler",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "OutboundNetworkConnection",
+      "directoryName": "outboundNetworkConnections",
+      "suffix": "outboundNetworkConnection",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "PathAssistant",
+      "directoryName": "pathAssistants",
+      "suffix": "pathAssistant",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "PaymentGatewayProvider",
+      "directoryName": "paymentGatewayProviders",
+      "suffix": "paymentGatewayProvider",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "PermissionSet",
+      "directoryName": "permissionsets",
+      "suffix": "permissionset",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "PermissionSetGroup",
+      "directoryName": "permissionsetgroups",
+      "suffix": "permissionsetgroup",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "PermissionSetLicenseDefinition",
+      "directoryName": "permissionSetLicenseDefinitions",
+      "suffix": "permissionSetLicenseDefinition",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "PlatformCachePartition",
+      "directoryName": "cachePartitions",
+      "suffix": "cachePartition",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "PlatformEventChannel",
+      "directoryName": "platformEventChannels",
+      "suffix": "platformEventChannel",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "PlatformEventChannelMember",
+      "directoryName": "platformEventChannelMembers",
+      "suffix": "platformEventChannelMember",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "PlatformEventMigration",
+      "directoryName": "platformEventMigrations",
+      "suffix": "platformEventMigration",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "PlatformEventSubscriberConfig",
+      "directoryName": "PlatformEventSubscriberConfigs",
+      "suffix": "platformEventSubscriberConfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "PostTemplate",
+      "directoryName": "postTemplates",
+      "suffix": "postTemplate",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ProcessFlowMigration",
+      "directoryName": "processflowmigrations",
+      "suffix": "processflowmigration",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ProductAttributeSet",
+      "directoryName": "productAttributeSets",
+      "suffix": "productAttributeSet",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ProfilePasswordPolicy",
+      "directoryName": "profilePasswordPolicies",
+      "suffix": "profilePasswordPolicy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ProfileSessionSetting",
+      "directoryName": "profileSessionSettings",
+      "suffix": "profileSessionSetting",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "Prompt",
+      "directoryName": "prompts",
+      "suffix": "prompt",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "PublicKeyCertificate",
+      "directoryName": "PublicKeyCertificate",
+      "suffix": "PublicKeyCertificate",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "PublicKeyCertificateSet",
+      "directoryName": "PublicKeyCertificateSet",
+      "suffix": "PublicKeyCertificateSet",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "Queue",
+      "directoryName": "queues",
+      "suffix": "queue",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "QuickAction",
+      "directoryName": "quickActions",
+      "suffix": "quickAction",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "RecommendationStrategy",
+      "directoryName": "recommendationStrategies",
+      "suffix": "recommendationStrategy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "RecordActionDeployment",
+      "directoryName": "recordActionDeployments",
+      "suffix": "deployment",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "RedirectWhitelistUrl",
+      "directoryName": "redirectWhitelistUrls",
+      "suffix": "redirectWhitelistUrl",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "RemoteSiteSetting",
+      "directoryName": "remoteSiteSettings",
+      "suffix": "remoteSite",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ReplyEmailConfig",
+      "directoryName": "replyEmailConfigs",
+      "suffix": "replyEmailConfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "Report",
+      "directoryName": "reports",
+      "suffix": "report",
+      "inFolder": true,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "ReportType",
+      "directoryName": "reportTypes",
+      "suffix": "reportType",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "RestrictionRule",
+      "directoryName": "restrictionRules",
+      "suffix": "rule",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "Role",
+      "directoryName": "roles",
+      "suffix": "role",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "SamlSsoConfig",
+      "directoryName": "samlssoconfigs",
+      "suffix": "samlssoconfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "SearchCustomization",
+      "directoryName": "searchCustomizations",
+      "suffix": "searchCustomization",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "SearchOrgWideObjectConfig",
+      "directoryName": "searchOrgWideConfiguration",
+      "suffix": "searchOrgWideObjectConfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "SecurityCustomBaseline",
+      "directoryName": "securityCustomBaselines",
+      "suffix": "securityCustomBaseline",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "Settings",
+      "directoryName": "settings",
+      "suffix": "settings",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "SharingRules",
+      "directoryName": "sharingRules",
+      "suffix": "sharingRules",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "SharingCriteriaRule",
+        "SharingGuestRule",
+        "SharingOwnerRule"
+      ],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "SharingSet",
+      "directoryName": "sharingSets",
+      "suffix": "sharingSet",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "SiteDotCom",
+      "directoryName": "siteDotComSites",
+      "suffix": "site",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "Skill",
+      "directoryName": "skills",
+      "suffix": "skill",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "SkillType",
+      "directoryName": "skilltypes",
+      "suffix": "skilltype",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "SrvcMgmtCollabAppFldDef",
+      "directoryName": "srvcMgmtCollabAppFldDefs",
+      "suffix": "srvcMgmtCollabAppFldDef",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "SrvcMgmtCollabAppObjDef",
+      "directoryName": "srvcMgmtCollabAppObjDefs",
+      "suffix": "srvcMgmtCollabAppObjDef",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "StandardValueSet",
+      "directoryName": "standardValueSets",
+      "suffix": "standardValueSet",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "StandardValueSetTranslation",
+      "directoryName": "standardValueSetTranslations",
+      "suffix": "standardValueSetTranslation",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "StaticDynamicValMapping",
+      "directoryName": "staticDynamicValMappings",
+      "suffix": "staticDynamicValMapping",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "StaticResource",
+      "directoryName": "staticresources",
+      "suffix": "resource",
+      "inFolder": false,
+      "metaFile": true,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "SynonymDictionary",
+      "directoryName": "synonymDictionaries",
+      "suffix": "synonymDictionary",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "TagSet",
+      "directoryName": "tagSet",
+      "suffix": "tagSet",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "Tag"
+      ],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "TopicsForObjects",
+      "directoryName": "topicsForObjects",
+      "suffix": "topicsForObjects",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "TransactionSecurityPolicy",
+      "directoryName": "transactionSecurityPolicies",
+      "suffix": "transactionSecurityPolicy",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "UIBundle",
+      "directoryName": "uiBundles",
+      "suffix": "uibundle",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "UiFormatSpecificationSet",
+      "directoryName": "uiFormatSpecificationSets",
+      "suffix": "uiFormatSpecificationSet",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "UserProvisioningConfig",
+      "directoryName": "userProvisioningConfigs",
+      "suffix": "userProvisioningConfig",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "WaveAnalyticAssetCollection",
+      "directoryName": "wave",
+      "suffix": "collection",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    },
+    {
+      "xmlName": "Workflow",
+      "directoryName": "workflows",
+      "suffix": "workflow",
+      "inFolder": false,
+      "metaFile": false,
+      "childXmlNames": [
+        "WorkflowAlert",
+        "WorkflowFieldUpdate",
+        "WorkflowFlowAutomation",
+        "WorkflowKnowledgePublish",
+        "WorkflowOutboundMessage",
+        "WorkflowRule",
+        "WorkflowSend",
+        "WorkflowTask"
+      ],
+      "observedAt": "2026-11-02T19:50:08.110Z"
+    }
+  ],
+  "metadataListings": [
+    {
+      "xmlName": "ApexClass",
+      "observedAt": "2026-11-02T19:50:11.158Z",
+      "components": [
+        {
+          "fullName": "AccountMedalController",
+          "manageableState": "unmanaged",
+          "fileName": "classes/AccountMedalController.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-07T02:26:09.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__constants",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__constants.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__dmlManager",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__dmlManager.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__FieldPermissionsBatchCloner",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__FieldPermissionsBatchCloner.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__ObjectPermissionsBatchCloner",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__ObjectPermissionsBatchCloner.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__permAnalyzer",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__permAnalyzer.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__permAnalyzerTestData",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__permAnalyzerTestData.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__permissionManager",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__permissionManager.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__PermissionsBatchCloner",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__PermissionsBatchCloner.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__PermissionsBatchCloner_Test",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__PermissionsBatchCloner_Test.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__permissionSetGroupsList",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__permissionSetGroupsList.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__PermissionsHelper",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__PermissionsHelper.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__PermissionsHelper_Test",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__PermissionsHelper_Test.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__profileConverter",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__profileConverter.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__psgAgregatedPermissions",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__psgAgregatedPermissions.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__report",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__report.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__reportByPermissionDependency",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__reportByPermissionDependency.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__reportByPermissionSet",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__reportByPermissionSet.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__reportByUser",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__reportByUser.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__responseData",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__responseData.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__SetupEntityAccessBatchCloner",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__SetupEntityAccessBatchCloner.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__strike_lookupController",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__strike_lookupController.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__strike_tst_lookupController",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__strike_tst_lookupController.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__strike_utilities",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__strike_utilities.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__TabSettingBatchCloner",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__TabSettingBatchCloner.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__tst_permAnalyzer",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__tst_permAnalyzer.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__tst_permissionManager",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__tst_permissionManager.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__tst_permissionSetGroups",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__tst_permissionSetGroups.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__tst_profileCoverter",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__tst_profileCoverter.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__tst_report",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__tst_report.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__tst_reportByPermissionDependency",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__tst_reportByPermissionDependency.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__tst_reportByPermissionSet",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__tst_reportByPermissionSet.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__tst_reportByUser",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__tst_reportByUser.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__tst_userMode",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__tst_userMode.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__userMode",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__userMode.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "Profile2PermSet__utilities",
+          "namespacePrefix": "Profile2PermSet",
+          "manageableState": "installed",
+          "fileName": "classes/Profile2PermSet__utilities.cls",
+          "lastModifiedByName": "Profile2PermSet",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__ApexClass_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__ApexClass_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__ApexClassModel",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__ApexClassModel.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__ApexClassRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__ApexClassRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__ApexClassService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__ApexClassService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__APIRequest",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__APIRequest.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__APIRequest_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__APIRequest_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__APIRequestException",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__APIRequestException.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__AppLogTrigger_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__AppLogTrigger_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Dashboard_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Dashboard_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__DashboardRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__DashboardRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__DashboardService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__DashboardService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Log_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Log_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Logger",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Logger.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Logger_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Logger_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__LoginHistoryModel",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__LoginHistoryModel.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__LogModel",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__LogModel.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__LogRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__LogRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__LogService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__LogService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Org_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Org_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__OrgModel",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__OrgModel.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__OrgRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__OrgRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__OrgService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__OrgService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Package_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Package_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__PackageRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__PackageRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__PackageService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__PackageService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Ping_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Ping_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__PingRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__PingRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Query_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Query_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__QueryRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__QueryRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__QueryResultsModel",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__QueryResultsModel.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__QueryResultsModel_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__QueryResultsModel_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__QueryService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__QueryService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Report_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Report_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__ReportRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__ReportRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__ReportService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__ReportService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__RequestHelpers",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__RequestHelpers.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__RequestHelpers_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__RequestHelpers_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__SecurityService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__SecurityService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__SecurityService_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__SecurityService_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Sobject_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Sobject_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__SobjectRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__SobjectRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__SobjectService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__SobjectService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__TestUtils",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__TestUtils.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__TestUtils_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__TestUtils_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__Tooling_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__Tooling_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__ToolingRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__ToolingRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__ToolingService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__ToolingService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__User_Test",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__User_Test.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__UserModel",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__UserModel.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__UserRestResource",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__UserRestResource.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        },
+        {
+          "fullName": "thsecurity__UserService",
+          "namespacePrefix": "thsecurity",
+          "manageableState": "installed",
+          "fileName": "classes/thsecurity__UserService.cls",
+          "lastModifiedByName": "Hugo Martins Damasceno",
+          "lastModifiedDate": "2026-02-05T17:55:55.000Z"
+        }
+      ]
+    }
+  ]
+}
